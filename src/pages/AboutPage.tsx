@@ -32,7 +32,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigateToMenu }) => {
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full bg-gradient-to-br from-[#2A180E] via-[#1C1008] to-[#120804] border-4 border-swan-gold/60 p-5 sm:p-8 shadow-2xl flex items-center justify-center overflow-hidden group">
               <div className="absolute inset-0 bg-swan-gold/15 rounded-full blur-2xl pointer-events-none" />
               <img
-                src="/assets/images/logo-transparent.png"
+                src="/assets/images/logo-transparent.webp"
                 alt="Swan Cafe Emblem"
                 className="relative z-10 w-full h-full object-contain drop-shadow-[0_15px_30px_rgba(0,0,0,0.7)] group-hover:scale-105 transition-transform duration-500"
               />
@@ -142,28 +142,28 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigateToMenu }) => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="rounded-2xl overflow-hidden aspect-square border border-swan-sand shadow-sm">
               <img
-                src="/assets/images/cappuccino.jpg"
+                src="/assets/images/cappuccino.webp"
                 alt="Latte Art"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
             <div className="rounded-2xl overflow-hidden aspect-square border border-swan-sand shadow-sm">
               <img
-                src="/assets/images/pink-glazed-donut.jpg"
+                src="/assets/images/pink-glazed-donut.webp"
                 alt="Pink Donut"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
             <div className="rounded-2xl overflow-hidden aspect-square border border-swan-sand shadow-sm">
               <img
-                src="/assets/images/iced-spanish-latte.jpg"
+                src="/assets/images/iced-spanish-latte.webp"
                 alt="Iced Spanish Latte"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
             <div className="rounded-2xl overflow-hidden aspect-square border border-swan-sand shadow-sm">
               <img
-                src="/assets/images/date-shake.jpg"
+                src="/assets/images/date-shake.webp"
                 alt="Medjool Date Shake"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />

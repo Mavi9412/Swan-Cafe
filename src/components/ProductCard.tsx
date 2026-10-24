@@ -78,6 +78,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ item, onSelect, onQuic
           src={item.image}
           alt={item.name}
           loading="lazy"
+          decoding="async"
           className="max-h-full w-auto max-w-[90%] object-contain filter drop-shadow-[0_20px_25px_rgba(0,0,0,0.8)] group-hover:-translate-y-3 group-hover:scale-110 transition-all duration-500 ease-out"
         />
       </div>

@@ -32,7 +32,7 @@ export const PoweredByMavi: React.FC<PoweredByMaviProps> = ({
         <span className="text-[11px] font-medium tracking-wide">Powered by</span>
         <div className="flex items-center gap-1.5">
           <img
-            src="/assets/images/mavitech-logo.png"
+            src="/assets/images/mavitech-logo.webp"
             onError={(e) => {
               // fallback if nested path fails
               (e.target as HTMLImageElement).src = '/mavitech-logo.png';
@@ -64,7 +64,7 @@ export const PoweredByMavi: React.FC<PoweredByMaviProps> = ({
         Powered by
       </span>
       <img
-        src="/assets/images/mavitech-logo.png"
+        src="/assets/images/mavitech-logo.webp"
         onError={(e) => {
           (e.target as HTMLImageElement).src = '/mavitech-logo.png';
         }}

@@ -114,8 +114,11 @@ export const HomePage: React.FC<HomePageProps> = ({
                 {/* Continuous Gentle Floating Animation */}
                 <div className="animate-float">
                   <img
-                    src="/assets/images/swan-splash-donut.png"
+                    src="/assets/images/swan-splash-donut.webp"
                     alt="Swan Cafe Signature Coffee Splash and Fresh Pink Donut"
+                    loading="eager"
+                    fetchPriority="high"
+                    decoding="async"
                     className="w-full h-auto max-h-[580px] lg:max-h-[680px] object-contain drop-shadow-[0_25px_60px_rgba(0,0,0,0.85)] filter brightness-[1.02] contrast-[1.04]"
                   />
                 </div>
@@ -260,7 +263,7 @@ export const HomePage: React.FC<HomePageProps> = ({
               <div className="space-y-4">
                 <div className="rounded-2xl overflow-hidden shadow-md border border-swan-sand aspect-[3/4]">
                   <img
-                    src="/assets/images/cappuccino.jpg"
+                    src="/assets/images/cappuccino.webp"
                     alt="Swan Latte Art Barista Pour"
                     loading="lazy"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
@@ -287,7 +290,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                 </div>
                 <div className="rounded-2xl overflow-hidden shadow-md border border-swan-sand aspect-[3/4]">
                   <img
-                    src="/assets/images/pink-glazed-donut.jpg"
+                    src="/assets/images/pink-glazed-donut.webp"
                     alt="Swan Fresh Glazed Brioche Donut"
                     loading="lazy"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
@@ -502,7 +505,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             {/* Interior Photo */}
             <div className="lg:col-span-5 h-72 sm:h-96 lg:h-full relative overflow-hidden">
               <img
-                src="/assets/images/cafe-interior.jpg"
+                src="/assets/images/cafe-interior.webp"
                 alt="Swan Cafe Warm Boutique Interior"
                 className="w-full h-full object-cover"
                 loading="lazy"

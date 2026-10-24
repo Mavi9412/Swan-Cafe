@@ -65,7 +65,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activePage, setActivePage }) => 
           >
             <div className="relative w-10 h-10 sm:w-11 sm:h-11 rounded-full overflow-hidden bg-gradient-to-br from-[#2A180E] to-[#120804] border border-swan-gold/50 shadow-md p-1.5 flex items-center justify-center group-hover:scale-105 transition-transform">
               <img
-                src="/assets/images/logo-transparent.png"
+                src="/assets/images/logo-transparent.webp"
                 alt="Swan Cafe Logo"
                 className="w-full h-full object-contain"
               />
